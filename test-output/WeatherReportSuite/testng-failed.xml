@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [WeatherReportSuite]">
+  <parameter name="broswer" value="Firefox"/>
+  <test name="Firefox Test(failed)">
+    <parameter name="broswer" value="Firefox"/>
+    <classes>
+      <class name="com.test.cases.TestWeatherReport">
+        <methods>
+          <include name="testDetailNDTVReport"/>
+          <include name="testWeatherMenu"/>
+          <include name="testPinCity"/>
+          <include name="testAPIWeatherDetails"/>
+          <include name="testVarianceComparator"/>
+        </methods>
+      </class> <!-- com.test.cases.TestWeatherReport -->
+    </classes>
+  </test> <!-- Firefox Test(failed) -->
+</suite> <!-- Failed suite [WeatherReportSuite] -->

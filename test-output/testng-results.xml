@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="12125" started-at="2020-08-23T15:06:25Z" finished-at="2020-08-23T15:06:38Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="12125" started-at="2020-08-23T15:06:25Z" finished-at="2020-08-23T15:06:38Z">
+      <class name="com.test.cases.TestWeatherReport">
+        <test-method status="PASS" signature="initialize(java.lang.String)[pri:0, instance:com.test.cases.TestWeatherReport@77caeb3e]" name="initialize" is-config="true" duration-ms="10003" started-at="2020-08-23T20:36:15Z" finished-at="2020-08-23T20:36:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="clear()[pri:0, instance:com.test.cases.TestWeatherReport@77caeb3e]" name="clear" is-config="true" duration-ms="53" started-at="2020-08-23T20:36:25Z" finished-at="2020-08-23T20:36:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clear -->
+        <test-method status="PASS" signature="testWeatherMenu()[pri:0, instance:com.test.cases.TestWeatherReport@77caeb3e]" name="testWeatherMenu" duration-ms="8000" started-at="2020-08-23T20:36:26Z" finished-at="2020-08-23T20:36:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWeatherMenu -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.test.cases.TestWeatherReport@77caeb3e]" name="takeScreenShotOnFailure" is-config="true" duration-ms="1" started-at="2020-08-23T20:36:34Z" finished-at="2020-08-23T20:36:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testWeatherMenu status=SUCCESS method=TestWeatherReport.testWeatherMenu()[pri:0, instance:com.test.cases.TestWeatherReport@77caeb3e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="testPinCity()[pri:0, instance:com.test.cases.TestWeatherReport@77caeb3e]" name="testPinCity" duration-ms="687" started-at="2020-08-23T20:36:34Z" depends-on-methods="com.test.cases.TestWeatherReport.testWeatherMenu" finished-at="2020-08-23T20:36:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPinCity -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.test.cases.TestWeatherReport@77caeb3e]" name="takeScreenShotOnFailure" is-config="true" duration-ms="1" started-at="2020-08-23T20:36:34Z" finished-at="2020-08-23T20:36:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testPinCity status=SUCCESS method=TestWeatherReport.testPinCity()[pri:0, instance:com.test.cases.TestWeatherReport@77caeb3e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="testDetailNDTVReport()[pri:0, instance:com.test.cases.TestWeatherReport@77caeb3e]" name="testDetailNDTVReport" duration-ms="624" started-at="2020-08-23T20:36:34Z" depends-on-methods="com.test.cases.TestWeatherReport.testPinCity" finished-at="2020-08-23T20:36:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDetailNDTVReport -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.test.cases.TestWeatherReport@77caeb3e]" name="takeScreenShotOnFailure" is-config="true" duration-ms="1" started-at="2020-08-23T20:36:35Z" finished-at="2020-08-23T20:36:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testDetailNDTVReport status=SUCCESS method=TestWeatherReport.testDetailNDTVReport()[pri:0, instance:com.test.cases.TestWeatherReport@77caeb3e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="testAPIWeatherDetails()[pri:0, instance:com.test.cases.TestWeatherReport@77caeb3e]" name="testAPIWeatherDetails" duration-ms="2696" started-at="2020-08-23T20:36:35Z" depends-on-methods="com.test.cases.TestWeatherReport.testDetailNDTVReport" finished-at="2020-08-23T20:36:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAPIWeatherDetails -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.test.cases.TestWeatherReport@77caeb3e]" name="takeScreenShotOnFailure" is-config="true" duration-ms="2" started-at="2020-08-23T20:36:38Z" finished-at="2020-08-23T20:36:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAPIWeatherDetails status=SUCCESS method=TestWeatherReport.testAPIWeatherDetails()[pri:0, instance:com.test.cases.TestWeatherReport@77caeb3e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="testHumidityVariance()[pri:0, instance:com.test.cases.TestWeatherReport@77caeb3e]" name="testHumidityVariance" duration-ms="8" started-at="2020-08-23T20:36:38Z" depends-on-methods="com.test.cases.TestWeatherReport.testAPIWeatherDetails" finished-at="2020-08-23T20:36:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHumidityVariance -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.test.cases.TestWeatherReport@77caeb3e]" name="takeScreenShotOnFailure" is-config="true" duration-ms="2" started-at="2020-08-23T20:36:38Z" finished-at="2020-08-23T20:36:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testHumidityVariance status=SUCCESS method=TestWeatherReport.testHumidityVariance()[pri:0, instance:com.test.cases.TestWeatherReport@77caeb3e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="testTempVariance()[pri:0, instance:com.test.cases.TestWeatherReport@77caeb3e]" name="testTempVariance" duration-ms="2" started-at="2020-08-23T20:36:38Z" depends-on-methods="com.test.cases.TestWeatherReport.testAPIWeatherDetails" finished-at="2020-08-23T20:36:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTempVariance -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.test.cases.TestWeatherReport@77caeb3e]" name="takeScreenShotOnFailure" is-config="true" duration-ms="1" started-at="2020-08-23T20:36:38Z" finished-at="2020-08-23T20:36:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testTempVariance status=SUCCESS method=TestWeatherReport.testTempVariance()[pri:0, instance:com.test.cases.TestWeatherReport@77caeb3e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="testWindSpeedVariance()[pri:0, instance:com.test.cases.TestWeatherReport@77caeb3e]" name="testWindSpeedVariance" duration-ms="2" started-at="2020-08-23T20:36:38Z" depends-on-methods="com.test.cases.TestWeatherReport.testAPIWeatherDetails" finished-at="2020-08-23T20:36:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWindSpeedVariance -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:com.test.cases.TestWeatherReport@77caeb3e]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2020-08-23T20:36:38Z" finished-at="2020-08-23T20:36:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testWindSpeedVariance status=SUCCESS method=TestWeatherReport.testWindSpeedVariance()[pri:0, instance:com.test.cases.TestWeatherReport@77caeb3e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.cases.TestWeatherReport@77caeb3e]" name="tearDown" is-config="true" duration-ms="1407" started-at="2020-08-23T20:36:38Z" finished-at="2020-08-23T20:36:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.cases.TestWeatherReport -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

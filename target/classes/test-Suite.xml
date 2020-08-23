@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="WeatherReportSuite">
+	<test name="Chrome Test">
+		<parameter name="browser" value="Chrome" />
+		<classes>
+			<class name="com.test.cases.TestWeatherReport" />
+		</classes>
+	</test>
+	<!-- <test name="Firefox Test">
+		<parameter name="browser" value="Firefox" />
+		<classes>
+			<class name="com.test.cases.TestWeatherReport" />
+		</classes>
+	</test>
+	<test name="IE Test">
+		<parameter name="browser" value="IE" />
+		<classes>
+			<class name="com.test.cases.TestWeatherReport" />
+		</classes>
+	</test> -->
+</suite>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.test.cases.TestWeatherReport">
+        <methods>
+          <include name="testDetailNDTVReport"/>
+          <include name="testHumidityVariance"/>
+          <include name="tearDown"/>
+          <include name="testWeatherMenu"/>
+          <include name="clear"/>
+          <include name="initialize"/>
+          <include name="testWindSpeedVariance"/>
+          <include name="testPinCity"/>
+          <include name="takeScreenShotOnFailure"/>
+          <include name="testAPIWeatherDetails"/>
+          <include name="testTempVariance"/>
+        </methods>
+      </class> <!-- com.test.cases.TestWeatherReport -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
